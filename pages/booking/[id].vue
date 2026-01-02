@@ -11,7 +11,7 @@
             <!-- ДАННЫЕ СО СКРОЛОМ-->
             <section class="overflow-y-auto p-4 ">
 
-                <!-- ОБРАБОТЧИК ОШИБОК -->
+                <!-- ОБРАБОТЧИК ОШИБОК увув-->
                 <p v-if="pending" class="mt-4 text-gray-500">Загрузка...</p>
                 <p v-else-if="error" class="mt-4 text-red-500">Ошибка: {{ error.message }}</p>
 
